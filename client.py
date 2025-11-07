@@ -9,4 +9,4 @@ i = input("What would you like to send to the server?: ")
 client_socket.send(i.encode('utf-8'))
 
 data = conn.recv(1024)
-print(Received: ", data.decode())
+print("Received: ", data.decode())
