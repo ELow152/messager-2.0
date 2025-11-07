@@ -1,6 +1,6 @@
 import socket
 
-s = socket.socket(AF_INET, socket.SOCK_STREAM)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket = socket.socket()
 x = input("What is the IP address you want to connect to?: ")
 client_socket.connect((x, 9001))
